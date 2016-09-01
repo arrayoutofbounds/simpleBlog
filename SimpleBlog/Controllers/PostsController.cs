@@ -11,7 +11,7 @@ namespace SimpleBlog.Controllers
         // needs to be public. Returns ActionResult.  Controller library has methods that construct ActionResult.
         public ActionResult Index()
         {
-            return Content("hello world");
+            return View();
         }
     }
 }
