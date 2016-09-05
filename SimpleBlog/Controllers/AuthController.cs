@@ -13,5 +13,11 @@ namespace SimpleBlog.Controllers
         {
             return View();
         }
+
+        [HttpPost]
+        public ActionResult Login(ViewModels.AuthLogin form)
+        {
+            return Content("hi " +  form.Username);
+        }
     }
 }
